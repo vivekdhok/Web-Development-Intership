@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border: 1px solid black;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+            text-align: center;
+            background-color: pink;
+            color: black;
+            font-weight:bold ;
+            /* margin: 20px; */
+            /* if you want on space between them we use gap  */
+            
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .product{
+            display: flex;
+            gap:5px;
+            height: 300px;
+            background-color: grey;
+            border: 1px solid black;
+            flex-direction: column;
+            /* to give in centre of div container in y axix we move this  */
+            align-items: center;
+            /* to conatin for x axis from left to rright  */
+            /* to move your contain from left to right --- justify content */
+            justify-content: center;
+            /* justify-content: space-around;
+            /* it make sapce in between is same  */
+            justify-content: space-between;
+            /* it make sapce in between is same  */
+            justify-content: space-evenly; 
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- Flexx gives Display in Dimensionall- Either row or coloum  -->
+<div class="product">
+    <!-- class product is parent and this inside it is child 
+            i have big box inside three box -->
+            <div class="box">Cake</div>
+            <div class="box">Cookie</div>
+            <div class="box">Pastry</div>
+    <!-- this shown in coloum format  (they are one below each other)-->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!-- data list  is updated version of selected tag 
+as user input i will shows the output  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select>
+        <!-- whatever slected is on 
+        for by default a langugae is selected
+         ue to we write selected in attribute  -->
+        <option selected>Langugae</option>
+        <option disabled>English</option>
+        <!-- temporay period not provide in english so that make it disabled  -->
+        <option label="MOTHER_TONGUE">Marathi</option>
+        <!-- label used to make short form of that word as given in list  -->
+        <option>Hindi</option>
+    </select>
+
+    <!-- slect tag and datalist tag are both are not connected tags 
+    we use one attribute ID we use same tag multiple times 
+    there can possiblity 
+    to connect that we use LIST in input 
+    as per data input from user that will shown by list  -->
+    <input list="Menu">
+    <datalist id="Menu">
+        <option value="PASTA">
+        <option value="MAGGI">
+        <option value="COFFE">
+        <option value="TEA">
+        <option value="POHE">
+    </datalist> 
+</body>
+</html>
